@@ -23,9 +23,10 @@ form {
 	align-items: center;
 }
 
+
 form input,
 form button {
-	padding: 0.5rem;
+	padding: 10px;
 	font-size: 2rem;
 	border: none;
 	background: white;
@@ -48,7 +49,7 @@ form button:hover {
 	align-items: center;
 }
 .todo-list {
-	min-width: 30%;
+	min-width: 50%;
 	list-style: none;
 }
 
@@ -82,7 +83,7 @@ form button:hover {
 }
 
 .todo-item {
-	padding: 0rem 0.5rem;
+	padding: 0rem 1rem;
 }
 
 .fa-trash,
@@ -109,11 +110,11 @@ select {
 	color: #ff4a62;
 	width: 10rem;
 	cursor: pointer;
-	padding: 1rem;
+	padding: 20px;
 }
 
 .select {
-	margin: 1rem;
+	margin-left: 2rem;
 	position: relative;
 	overflow: hidden;
 }
@@ -123,7 +124,7 @@ select {
 	background: #ff4a62;
 	top: 0;
 	right: 0;
-	padding: 1rem;
+	padding: 20px;
 	pointer-events: none;
 	transition: all 0.3s ease;
 }
